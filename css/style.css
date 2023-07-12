@@ -1,0 +1,188 @@
+@font-face {
+    src:url("/images/DancingScript-VariableFont_wght.ttf");
+    font-family:curly;
+    }
+
+    #pep{
+        margin-top: 100px;
+    }
+    
+    #h3 {
+        text-align: center;
+        font-size: 40px;
+        font-family:curly;
+        position:relative;
+    }
+    #h3:before {
+        content: "";
+        display:block;
+        width:100px;
+        height:2px;
+        background:white; 
+        position: absolute;
+        left:29%;
+        top:50%;
+        z-index:-.3;
+    
+    }
+    span {
+        background:transparent;
+    }
+    #h3:after {
+        content: "";
+        display:block;
+        width:100px;
+        height:2px;
+        background:white; 
+        position: absolute;
+        right:29%;
+        top:50%;
+        z-index: -.3;
+    }
+    .intro {
+        margin-top:-30%;
+      
+    }
+    .pizzero {
+        margin-top: .3%;
+    }
+    .back-g {
+        margin-top:23%;
+        margin-left:46%;
+    
+    }
+    .about {
+        margin-top:-28%;
+        margin-left:19%;
+        width:400px;
+    }
+    
+    h2 {
+    font-family:curly;
+    color:goldenrod;
+    font-weight: bold;
+    }
+    section .face {
+        height:100%;
+    }
+    .spec {
+        margin-top: 9%;
+        margin-bottom: 4%;
+        text-align: center;
+        margin-left: -10%;
+        position: relative;
+    }
+    .spec:before {
+        content: "";
+        display:block;
+        width:100px;
+        height:2px;
+        background:goldenrod; 
+        position: absolute;
+        left:35%;
+        top:50%;
+        z-index:-.3;
+    }
+    .spec:after {
+        content: "";
+        display:block;
+        width:100px;
+        height:2px;
+        background:goldenrod; 
+        position: absolute;
+        right:35%;
+        top:50%;
+        z-index:-.3;
+    }
+    .place-order {
+        background-color: rgba(167, 40, 8, 0.8);
+        color:white;
+        margin:0 40% 2% 40%;
+        padding:1%;
+        border-radius: 10px;
+        font-weight:bold;
+        margin-top: 20px;
+    }
+    .place-order:hover {
+        cursor: pointer;
+        background-color: rgb(148, 113, 24);
+    }
+    .ordering-plate {
+        z-index: 1;
+        position: absolute;
+        top:0;
+        bottom:0;
+        background-color:rgba(0, 0, 0, 0.6);
+        margin:0 7% 0 7%;
+        padding:2%;
+        height:800px;
+        border-radius: 5px;
+        display:none;
+    }
+    .close-thing {
+        font-size: 75px;
+        color:goldenrod;
+        opacity: 1;
+        margin: 1%, 3% ,1% 1%;
+        float:right;
+    }
+    .close-thing:hover,
+    .close:focus {
+        color:red;
+        cursor: pointer;
+    }
+    .imagesize {
+        width:50%;
+    }
+    .sizes-available {
+     font-weight: bold;
+     color: white;
+     border-bottom: 4px solid;
+     border-top: 4px solid;
+     border-radius: 5px;
+     margin-bottom:2%;
+     padding:2%;
+     background-color: #49170e; 
+    }
+    #order-ready {
+        width:25%;
+        background-color: #49170e;
+        color:goldenrod;
+        font-weight:bold;
+        padding:20px;
+        margin:3%;
+        margin-left:35%;
+        font-size:40px;
+        border-radius: 10px;
+    }
+    .sizedenotions{
+        color:white;
+    }
+    .smallpizza {
+        margin-top: 6%;
+    }
+    .mediumpizza{
+        margin-top:3%;
+    }
+    .largepizza {
+        margin-top: 1.3%;
+    }
+    #footer-area {
+        padding: 90px 0 60px 0;
+        background: #49170e;
+        color:white;
+    }
+    .link-area li {
+        padding :5px 5px 5px 0;
+        list-style:none;
+        
+    }
+    #footer-area{
+    align-items: center;
+    }
+    .copyright-area{
+        background:red;
+        padding:30px 0;
+    }
+    
+    
